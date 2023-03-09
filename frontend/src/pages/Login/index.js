@@ -23,18 +23,7 @@ import { i18n } from "../../translate/i18n";
 
 import { AuthContext } from "../../context/Auth/AuthContext";
 
-// const Copyright = () => {
-// 	return (
-// 		<Typography variant="body2" color="textSecondary" align="center">
-// 			{"Copyleft "}
-// 			<Link color="inherit" href="https://github.com/canove">
-// 				Canove
-// 			</Link>{" "}
-// 			{new Date().getFullYear()}
-// 			{"."}
-// 		</Typography>
-// 	);
-// };
+
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -77,12 +66,9 @@ const Login = () => {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
-          <LockOutlined />
-        </Avatar>
-        <Typography component="h1" variant="h5">
-          {i18n.t("login.title")}
-        </Typography>
+        
+         <img src="./logo.jpg" width="50px"></img>
+        
         <form className={classes.form} noValidate onSubmit={handlSubmit}>
           <TextField
             variant="outlined"
@@ -133,14 +119,7 @@ const Login = () => {
           </Button>
           <Grid container>
             <Grid item>
-              <Link
-                href="#"
-                variant="body2"
-                component={RouterLink}
-                to="/signup"
-              >
-                {i18n.t("login.buttons.register")}
-              </Link>
+              
             </Grid>
           </Grid>
         </form>
@@ -149,5 +128,15 @@ const Login = () => {
     </Container>
   );
 };
+/*
+<Link
+                href="#"
+                variant="body2"
+                component={RouterLink}
+                to="/signup"
+              >
+                {i18n.t("login.buttons.register")}
+              </Link>
+*/
 
 export default Login;

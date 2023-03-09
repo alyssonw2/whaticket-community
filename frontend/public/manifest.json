@@ -1,6 +1,6 @@
 {
-	"short_name": "WhaTicket",
-	"name": "WhaTicket",
+	"short_name": "Ajdev tiket",
+	"name": "Ajdev tiket",
 	"icons": [
 		{
 			"src": "favicon.ico",
@@ -15,6 +15,6 @@
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff"
+	"theme_color": "#3333",
+	"background_color": "#3333"
 }

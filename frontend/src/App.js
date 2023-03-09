@@ -16,12 +16,12 @@ const App = () => {
           height: "8px",
         },
         "&::-webkit-scrollbar-thumb": {
-          boxShadow: "inset 0 0 6px rgba(0, 0, 0, 0.3)",
-          backgroundColor: "#e8e8e8",
+          boxShadow: " 0px 0px 28px 1px rgba(17, 17, 26, 0.18)",
+          backgroundColor: "#e1e1e1",
         },
       },
       palette: {
-        primary: { main: "#2576d2" },
+        primary: { main: "#a425d2" },
       },
     },
     locale
